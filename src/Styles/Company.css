@@ -1,0 +1,47 @@
+.company-container {
+  margin: 10px 170px;
+  width: 90vw;
+  max-width: 846.23px;
+}
+
+.company-info {
+  width: 100%;
+  height: 59px;
+  background-color: #404040;
+  border-radius: 7.69px;
+  display: flex;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.company-info.selected {
+  background-color: #53acff;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+}
+
+.company-name {
+  width: 91.8px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.company-detail {
+  width: 91.8px;
+  text-align: center;
+}
+
+.company-description {
+  width: 85vw;
+  max-width: 846.23px;
+  background-color: #202030;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10px;
+}
